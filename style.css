@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Hurricane&family=Inspiration&family=Quicksand:wght@300;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Quicksand;
+  font-size: 10px;
+  color: #0e1111;
+  background-color: #f8f8ff;
+}
+
+/* MENU */
+nav {
+  position: fixed;
+  background-color: white;
+  width: 100%;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px 50px 20px 0;
+  max-width: 85%;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #0e1111;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 10px 15px;
+}
+
+a:hover {
+  border-bottom: 2px solid #0e1111;
+}
+
+/* HEADER */
+header {
+  height: 70vh;
+  background-image: url(img/main.jpg);
+  background-size: cover;
+  background-position: -50px;
+}
+
+h1 {
+  font-family: Inspiration;
+  font-size: 12rem;
+  text-align: center;
+  color: white;
+  line-height: 70vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* MAIN */
+main {
+  max-width: 85%;
+  margin: 0 auto;
+}
+
+.introhead {
+  font-family: Hurricane;
+  font-size: 4rem;
+  padding: 25px 0;
+  text-align: center;
+}
+
+.intro {
+  font-size: 1.5rem;
+  line-height: 160%;
+  padding: 15px 0;
+}
+
+/* 1ST BENEFIT */
+.one {
+  display: flex;
+  margin: 20px 10px 40px 10px;
+  position: relative;
+}
+
+.image1 {
+  height: 45vh;
+  width: 35vw;
+  background-image: url(img/barman.jpg);
+  background-size: cover;
+}
+
+.desc1 {
+  height: 35vh;
+  width: 20vw;
+  background-color: #deaa88;
+  padding: 15px;
+  position: absolute;
+  top: 20px;
+  left: 600px;
+}
+
+.desc1 h3 {
+  font-family: Hurricane;
+  font-size: 3rem;
+  letter-spacing: 1px;
+  color: white;
+}
+
+.desc1 p {
+  font-size: 1.5rem;
+  text-align: justify;
+  padding: 15px 0 0 0;
+  color: white;
+}
+
+/* 2ND BENEFIT */
+.two {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 20px 10px;
+  position: relative;
+}
+
+.image2 {
+  height: 45vh;
+  width: 35vw;
+  background-image: url(img/inter.jpg);
+  background-size: cover;
+}
+
+.desc2 {
+  height: 35vh;
+  width: 20vw;
+  background-color: #deaa88;
+  padding: 15px;
+  position: absolute;
+  top: 20px;
+  left: 650px;
+}
+
+.desc2 h3 {
+  font-family: Hurricane;
+  font-size: 3rem;
+  letter-spacing: 1px;
+  color: white;
+}
+
+.desc2 p {
+  font-size: 1.5rem;
+  text-align: justify;
+  padding: 15px 0 0 0;
+  color: white;
+}
+
+/* 3RD BENEFIT */
+.three {
+  display: flex;
+  margin: 20px 10px 40px 10px;
+  position: relative;
+}
+
+.image3 {
+  height: 45vh;
+  width: 35vw;
+  background-image: url(img/drink.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.desc3 {
+  height: 35vh;
+  width: 20vw;
+  background-color: #deaa88;
+  padding: 15px;
+  position: absolute;
+  top: 20px;
+  left: 600px;
+}
+
+.desc3 h3 {
+  font-family: Hurricane;
+  font-size: 3rem;
+  letter-spacing: 1px;
+  color: white;
+}
+
+.desc3 p {
+  font-size: 1.5rem;
+  text-align: justify;
+  padding: 15px 0 0 0;
+  color: white;
+}
+
+/* SECTION */
+.last {
+  background-image: url(img/para.jpg);
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: rgba(0, 0, 0, 50%);
+}
+
+.lasth2 {
+  font-family: Hurricane;
+  font-size: 12rem;
+  color: white;
+  line-height: 50vh;
+  text-align: center;
+}
+
+footer {
+  background-color: #deaa88;
+  height: 40px;
+}
+
+.footer {
+  color: white;
+  font-size: 1.5rem;
+  line-height: 40px;
+  text-align: center;
+}
